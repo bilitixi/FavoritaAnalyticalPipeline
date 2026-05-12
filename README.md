@@ -268,4 +268,3 @@ The exported datasets support dashboards such as:
 ---
 
 
-* LinkedIn: [LinkedIn Profile](https://linkedin.com/in/le-nam-anh-nguyen-0692612b2?utm_source=chatgpt.com)
