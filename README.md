@@ -265,6 +265,27 @@ The exported datasets support dashboards such as:
 * Real-time prediction dashboards
 * Deep learning forecasting models (LSTM/Transformer)
 
+Add this section near the top of your README (after the Dataset or Technologies section works well):
+
 ---
+
+# Important Note
+
+⚠️ This notebook is designed to run in a **Kaggle Notebook environment** because the dataset files are loaded directly from the Kaggle competition input directory structure.
+
+The project uses:
+
+```python
+/kaggle/input/favorita-grocery-sales-forecasting/
+```
+
+Running the notebook locally may require:
+
+* Manual dataset download from Kaggle
+* Updating file paths
+* Additional storage and memory configuration due to the large dataset size
+
+For best compatibility and performance, run the notebook using:
+[Kaggle Notebooks](https://www.kaggle.com/code?utm_source=chatgpt.com)
 
 
