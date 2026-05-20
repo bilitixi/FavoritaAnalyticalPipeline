@@ -1,3 +1,4 @@
+````markdown
 # Data Folder Description
 
 This folder contains four CSV files used in the Power BI reports for the grocery sales forecasting project.
@@ -21,3 +22,57 @@ The models were trained using historical sales data from:
 
 ```plaintext
 15/08/2016 to 15/08/2017
+````
+
+The trained models were then used to predict sales for the period:
+
+```plaintext
+16/08/2017 to 31/08/2017
+```
+
+## Usage in Power BI
+
+These files are used to:
+
+* Visualize future sales forecasts
+* Analyze predicted sales trends
+* Compare forecasted performance across stores and product families
+
+---
+
+# Files Generated from the Training Pipeline
+
+The following files were generated from the training pipeline notebook:
+
+* `power_data_store_family.csv`
+* `power_data_store.csv`
+
+## Purpose
+
+These files contain both actual sales values and model predictions generated during training evaluation.
+
+The datasets are used to assess the prediction performance of the XGBoost models by comparing predicted sales against actual sales values.
+
+The comparison period is:
+
+```plaintext
+23/05/2017 to 15/08/2017
+```
+
+## Usage in Power BI
+
+These files are used to:
+
+* Evaluate model prediction accuracy
+* Compare actual sales and predicted sales
+* Visualize model performance over time
+* Analyze forecasting performance by store and product family
+
+---
+
+# Additional Information
+
+The prediction pipeline notebook and the overall forecasting workflow are explained in detail in the main `README.md` file located in the project repository.
+
+```
+```
