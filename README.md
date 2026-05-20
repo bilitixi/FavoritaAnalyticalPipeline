@@ -4,7 +4,9 @@
 
 This project focuses on forecasting grocery sales using the **Corporación Favorita Grocery Sales Forecasting Dataset**. The workflow includes data extraction, cleaning, feature engineering, model training using **XGBoost**, and exporting prediction results for **Power BI visualization**.
 
-The project demonstrates a complete end-to-end machine learning pipeline for handling large-scale retail sales data. *Note that this README.md file explain the steps executed in prediction-pipeline.ipynb*
+The project demonstrates a complete end-to-end machine learning pipeline for handling large-scale retail sales data. 
+
+*Note that this README.md file explain the steps executed in prediction-pipeline.ipynb*
 
 ---
 
